@@ -149,9 +149,9 @@ export default function Homepage() {
           <div>
                 <h3 className="text-lg font-semibold mb-4"></h3>
                 <ul className="space-y-2 flex">
-                  <li><a href="https://www.instagram.com/borrowbee" className="m-4 p-4 text-gray-400 hover:text-red-500"><FaInstagram size={24} color="#E1306C" /></a></li>
-                  <li><a href="https://www.facebook.com/BorrowBeeByCudaIQ/" className="m-4 p-4 text-gray-400 hover:text-red-500"><FaFacebook size={24} color="#4267B2" /></a></li>
-                  <li><a href="https://www.linkedin.com/company/borrowbee" className="m-4 p-4 text-gray-400 hover:text-red-500"><FaLinkedin size={24} color="#0A66C2" /></a></li>
+                  <li><a href="https://www.instagram.com/borrowbee" className="p-2 text-gray-400 hover:text-red-500"><FaInstagram size={24} color="#E1306C" /></a></li>
+                  <li><a href="https://www.facebook.com/BorrowBeeByCudaIQ/" className="p-2 text-gray-400 hover:text-red-500"><FaFacebook size={24} color="#4267B2" /></a></li>
+                  <li><a href="https://www.linkedin.com/company/borrowbee" className="p-2 text-gray-400 hover:text-red-500"><FaLinkedin size={24} color="#0A66C2" /></a></li>
                 </ul>
               </div>
           <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
