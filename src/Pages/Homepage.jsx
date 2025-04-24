@@ -128,9 +128,9 @@ export default function Homepage() {
               <div>
                 <h3 className="text-lg font-semibold mb-4">Company</h3>
                 <ul className="space-y-2">
-                  <li><a href="#" className="text-gray-400 hover:text-red-500">About Us</a></li>
-                  <li><a href="#" className="text-gray-400 hover:text-red-500">Vision/Mission</a  ></li>
-                  <li><a href="#" className="text-gray-400 hover:text-red-500">Goals</a></li>
+                  <li><a href="#" className="text-gray-400 hover:text-red-500" style={this.props.canClick ? {pointerEvents: "none"} : null}>About Us</a></li>
+                  <li><a href="#" className="text-gray-400 hover:text-red-500" style={this.props.canClick ? {pointerEvents: "none"} : null}>Vision/Mission</a  ></li>
+                  <li><a href="#" className="text-gray-400 hover:text-red-500" style={this.props.canClick ? {pointerEvents: "none"} : null}>Goals</a></li>
                   {/* <li><a href="#" className="text-gray-400 hover:text-red-500">Careers</a></li> */}
                   {/* <li><a href="#" className="text-gray-400 hover:text-red-500">Press</a></li> */}
                 </ul>
@@ -138,9 +138,9 @@ export default function Homepage() {
               <div>
                 <h3 className="text-lg font-semibold mb-4">Support</h3>
                 <ul className="space-y-2">
-                  <li><a href="#" className="text-gray-400 hover:text-red-500">Help Center</a></li>
+                  <li><a href="#" className="text-gray-400 hover:text-red-500" style={this.props.canClick ? {pointerEvents: "none"} : null}>Help Center</a></li>
                   {/* <li><a href="#" className="text-gray-400 hover:text-red-500">Safety</a></li> */}
-                  <li><a href="#" className="text-gray-400 hover:text-red-500">Terms of Service</a></li>
+                  <li><a href="#" className="text-gray-400 hover:text-red-500" style={this.props.canClick ? {pointerEvents: "none"} : null}>Terms of Service</a></li>
                 </ul>
               </div>
               
